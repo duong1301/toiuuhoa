@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <label for="">Số biến</label>
+        <input type="text" name="variables" value="4"/>
+        <br>
+        <label for="">Số ràng buộc</label>
+        <input type="text" name="constraints" value="5"/>
+        <br>
+        
+    </div>
+    <div id="Input">
+        
+        <div>
+            <input type="text" value="35"><label for="">x1</label> + 
+            <input type="text" value="40"><label for="">x2</label> + 
+            <input type="text" value="25"><label for="">x3</label>+
+            <input type="text" value="35"><label for="">x4</label> -> Max         
+
+        </div>
+        
+        <br/>
+        <input type="text" value="2"><label for="">x1</label> + 
+        <input type="text" value="2"><label for="">x2</label> + 
+        <input type="text" value="3"><label for="">x3</label>+
+        <input type="text" value="3"><label for="">x4</label> <=
+        <input type="text" value="3000">
+        <br>
+        <br/>
+        <input type="text" value="0"><label for="">x1</label> + 
+        <input type="text" value="0"><label for="">x2</label> + 
+        <input type="text" value="6"><label for="">x3</label>+
+        <input type="text" value="5"><label for="">x4</label> <=
+        <input type="text" value = "3000">
+        <br>
+        <br/>
+        <input type="text" value="0"><label for="">x1</label> + 
+        <input type="text" value="1"><label for="">x2</label> + 
+        <input type="text" value="0"><label for="">x3</label>+
+        <input type="text" value="1"><label for="">x4</label> <=
+        <input type="text" value = "300">
+        <br>
+        <br/>
+        <input type="text" value="6"><label for="">x1</label> + 
+        <input type="text" value="5"><label for="">x2</label> + 
+        <input type="text" value="0"><label for="">x3</label>+
+        <input type="text" value="0"><label for="">x4</label> <=
+        <input type="text" value="3000">
+        <br>
+        <br/>
+        <input type="text" value="7"><label for="">x1</label> + 
+        <input type="text" value="7"><label for="">x2</label> + 
+        <input type="text" value="7"><label for="">x3</label>+
+        <input type="text" value="7"><label for="">x4</label> <=
+        <input type="text" value="7000">
+        <br>
+    </div>
+    <button onclick="run()">Tính</button>
+    <div id="output">
+        
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
